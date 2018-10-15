@@ -1,0 +1,55 @@
+body {
+  background-color: #1d1d1d;
+  color: #f8f8f8;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden; }
+h1 {
+  color: #9ACD32;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center; }
+.col-12 {
+  padding: 0px; }
+.portfolio-thumb, .portfolio-overlay {
+  max-width: 450px; }
+.portfolio-thumb {
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto; }
+.portfolio-thumb .portfolio-overlay {
+  background-color: #9ACD32;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  padding: 15px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+.portfolio-thumb .portfolio-overlay p {
+  color: #1d1d1d;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1rem; }
+.portfolio-thumb:hover .portfolio-overlay {
+  cursor: pointer;
+  opacity: 0.7; }
+@media only screen and (min-width: 576px) {
+  .portfolio-thumb .portfolio-overlay p {
+    font-size: 0.9rem;  } }
+@media only screen and (min-width: 768px) {
+  .portfolio-thumb .portfolio-overlay p {
+    font-size: 0.55rem;  } }
+@media only screen and (min-width: 992px) {
+  .portfolio-thumb .portfolio-overlay p {
+    font-size: 0.8rem;  } }
+@media only screen and (min-width: 1200px) {
+  .portfolio-thumb .portfolio-overlay p {
+    font-size: 1rem;  } }
