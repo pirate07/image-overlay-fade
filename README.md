@@ -1,2 +1,2 @@
-# image-overlay-fade
+# Image-Overlay-Fade
  HTML, CSS, Bootstrap, Adobe Photoshop
